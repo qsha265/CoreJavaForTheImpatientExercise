@@ -8,8 +8,8 @@ import java.util.Scanner;
  * @author Quanyu Sha
  * @date 05/03/2020
  */
-
 public class Exercise7 {
+    private static final int MAX_LIMIT = 65535;
 
     /* Question
     Write a program that reads in two numbers between 0 and 65535, stores them in short variables, and computes their unsigned sum,
@@ -18,7 +18,7 @@ public class Exercise7 {
 
     public static void main(String[] args) {
         // read two integers and check the value
-        System.out.println("Enter two integers between 0 and 65535: ");
+        System.out.printf("Enter two integers between 0 and %d: \n", MAX_LIMIT);
         Short firstShort = (short) checkInputScroop(getInputInt());
         Short secondShort = (short) checkInputScroop(getInputInt());
 
@@ -35,10 +35,10 @@ public class Exercise7 {
     }
 
     public static int checkInputScroop(int inputInt) {
-        if (inputInt >= 0 && inputInt <= 65535) {
+        if (inputInt >= 0 && inputInt <= MAX_LIMIT) {
             return inputInt;
         } else {
-            System.out.println("The integer is not between 0 and 65535, please enter another one: ");
+            System.out.printf("The integer is not between 0 and %d, please enter another one: \n", MAX_LIMIT);
             return checkInputScroop(checkInputScroop(getInputInt()));
         }
     }
