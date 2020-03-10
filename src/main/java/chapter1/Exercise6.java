@@ -8,7 +8,6 @@ import java.math.BigInteger;
  * @author Quanyu Sha
  * @date 05/03/2020
  */
-
 public class Exercise6 {
 
     /* Question

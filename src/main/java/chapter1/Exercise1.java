@@ -8,7 +8,6 @@ import java.util.Scanner;
  * @author Quanyu Sha
  * @date 04/03/2020
  */
-
 public class Exercise1 {
 
     /* Question:

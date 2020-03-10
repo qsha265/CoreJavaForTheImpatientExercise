@@ -1,7 +1,5 @@
 package chapter1;
 
-import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
  * chapter1.Exercise14
@@ -9,7 +7,6 @@ import java.util.Scanner;
  * @author Quanyu Sha
  * @date 05/03/2020
  */
-
 public class Exercise14 {
 
     /* Question

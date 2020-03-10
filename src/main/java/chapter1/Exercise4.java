@@ -6,7 +6,6 @@ package chapter1;
  * @author Quanyu Sha
  * @date 04/03/2020
  */
-
 public class Exercise4 {
 
     /* Question

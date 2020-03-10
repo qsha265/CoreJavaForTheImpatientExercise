@@ -8,7 +8,6 @@ import java.util.Random;
  * @author Quanyu Sha
  * @date 05/03/2020
  */
-
 public class Exercise10 {
 
     /* Question
