@@ -15,6 +15,8 @@ public class Exercise13 {
     Write a program that prints a lottery combination, picking six distinct numbers between 1 .. 49.
     */
 
+    private static final int NUMBER_OF_PICK = 6;
+
     public static void main(String[] args) {
         // set up size
         final int lotterySize = 49;
@@ -25,7 +27,7 @@ public class Exercise13 {
         }
         // mix the numbers and select 6 of them
         Collections.shuffle(numbers);
-        for (int i = 0; i < 6; i ++){
+        for (int i = 0; i < NUMBER_OF_PICK; i ++){
             System.out.println(numbers.get(i));
         }
     }

@@ -17,6 +17,8 @@ public class Exercise1 {
     Also print a new line at the end.
     */
 
+    private static final int DAYS_OF_WEEK = 7;
+
     public static void printCalendar(int year, int month) {
         LocalDate date = LocalDate.of(year, month, 1);
         printDayOfWeekTitle();
@@ -32,7 +34,7 @@ public class Exercise1 {
 
     public static void printDayOfWeekTitle() {
         // print day of week title from SUNDAY
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < DAYS_OF_WEEK; i++) {
             if (i == 0) {
                 System.out.printf("%.3s\t", DayOfWeek.of(7));
             } else if (i == 6) {
