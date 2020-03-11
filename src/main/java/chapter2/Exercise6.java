@@ -12,7 +12,7 @@ public class Exercise6 {
     Repeat the preceding exercise, but now make translate and scale into mutable method.
 
     Add javadoc comments
-     */
+    */
 
     /**
      * A mutable class that describes a point in the plane.
@@ -62,6 +62,7 @@ public class Exercise6 {
 
         /**
          * Constructs a new Point object with its value field initialized to the given doubles.
+         *
          * @param x set up the value of x
          * @param y set up the value of y
          */
