@@ -17,6 +17,22 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/opencsv-5.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-lang3</groupId>
+            <artifactId>lang3</artifactId>
+            <version>3.9</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/commons-lang3-3.9.jar</systemPath>
+        </dependency>
     </dependencies>
+
 
 </project>
